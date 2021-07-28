@@ -1,13 +1,13 @@
 # Local
 
 ```
-curl https://mencargo.github.io/.bashrc -o ~/.bashrc
+curl https://raw.githubusercontent.com/mencargo/mencargo.github.io/main/.bashrc -o ~/.bashrc
 mkdir ~/bin
-curl https://mencargo.github.io/aur -o ~/bin/aur
+curl https://raw.githubusercontent.com/mencargo/mencargo.github.io/main/aur -o ~/bin/aur
 ```
 
 # Server
 ```
-$ curl https://mencargo.github.io/.bashrc_server -o ~/.bashrc
-# curl https://mencargo.github.io/.bashrc_server_root -o ~/.bashrc
+$ curl https://raw.githubusercontent.com/mencargo/mencargo.github.io/main/.bashrc_server -o ~/.bashrc
+# curl https://raw.githubusercontent.com/mencargo/mencargo.github.io/main/.bashrc_server_root -o ~/.bashrc
 ```
