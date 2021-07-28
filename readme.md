@@ -4,6 +4,8 @@
 curl https://raw.githubusercontent.com/mencargo/mencargo.github.io/main/.bashrc -o ~/.bashrc
 mkdir ~/bin
 curl https://raw.githubusercontent.com/mencargo/mencargo.github.io/main/aur -o ~/bin/aur
+chmod +x ~/bin/aur
+echo "gem: --no-document" > ~/.gemrc
 ```
 
 # Server
