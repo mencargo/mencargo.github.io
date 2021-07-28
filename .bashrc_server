@@ -1,0 +1,29 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+export VISUAL=nano
+export EDITOR=nano
+export PATH=$PATH:$HOME/bin:$HOME/go/bin
+export HISTCONTROL=erasedups
+
+# Override defaults
+alias ls='ls --color=auto'
+alias df='df -h'
+alias du='du -shc'
+alias free='free -h'
+
+alias l='ls -lhA'
+alias up='sudo pacman -Syu'
+alias upall='aur $(pacman -Qqm)'
+
+alias gl='git pull'
+alias gs='git status'
+
+alias rs='bundle exec rake system:start'
+
+# Warning, server prompt!
+PS1='\[\033[1;33m\][\u@\h \W]\[\033[0m\]\$ '
