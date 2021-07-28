@@ -1,4 +1,4 @@
-# Files
+# Local
 
 ```
 curl https://mencargo.github.io/.bashrc -o ~/.bashrc
