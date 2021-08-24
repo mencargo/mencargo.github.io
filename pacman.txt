@@ -1,0 +1,16 @@
+bind
+dbeaver
+dnsmasq
+git
+go
+htop
+mpv
+ntfs-3g
+p7zip
+pacman-contrib
+postgresql
+qgis
+ruby
+telegram-desktop
+terminator
+whois
