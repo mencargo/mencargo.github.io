@@ -1,6 +1,6 @@
 # Diego Algara - Founder of [Nubenautas](https://nubenautas.com/), [ReguDocs](https://regudocs.com/) & [GTFS Studio](https://gtfs.studio)
 
-## Gists:
+# Gists
 [Linux Commands](https://gist.github.com/mencargo/c5e8c296a4e5492cdfb8c08774aed798)
 
 [PostgreSQL Queries](https://gist.github.com/mencargo/79447185034ebabcb49087008fbdc266)
