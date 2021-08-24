@@ -17,4 +17,4 @@ $ curl https://raw.githubusercontent.com/mencargo/mencargo.github.io/main/.bashr
 # AUR:
 Backup: `# pacman -Qqe | grep -v "$(pacman -Qqm)" > pacman.lst`
 
-Restore: `#cat pacman.lst | xargs pacman -S --needed --noconfirm`
+Restore: `# cat pacman.lst | xargs pacman -S --needed --noconfirm`
