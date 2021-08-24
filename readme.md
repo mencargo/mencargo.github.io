@@ -13,3 +13,8 @@ echo "gem: --no-document" > ~/.gemrc
 $ curl https://raw.githubusercontent.com/mencargo/mencargo.github.io/main/.bashrc_server -o ~/.bashrc
 # curl https://raw.githubusercontent.com/mencargo/mencargo.github.io/main/.bashrc_server_root -o ~/.bashrc
 ```
+
+# AUR:
+Backup: `# pacman -Qqe | grep -v "$(pacman -Qqm)" > pacman.lst`
+
+Restore: `#cat pacman.lst | xargs pacman -S --needed --noconfirm`
