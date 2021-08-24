@@ -1,0 +1,5 @@
+bubbles-git
+google-chrome
+jumpapp-git
+megasync-bin
+visual-studio-code-bin
