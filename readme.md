@@ -1,4 +1,5 @@
-# Diego Algara - Founder of [Nubenautas](https://nubenautas.com/), [ReguDocs](https://regudocs.com/) & [GTFS Studio](https://gtfs.studio)
+# Diego Algara
+## [Nubenautas](https://nubenautas.com/), [ReguDocs](https://regudocs.com/) & [GTFS Studio](https://gtfs.studio)
 [Linux Commands](https://gist.github.com/mencargo/c5e8c296a4e5492cdfb8c08774aed798)
 
 [PostgreSQL Queries](https://gist.github.com/mencargo/79447185034ebabcb49087008fbdc266)
@@ -20,7 +21,7 @@ $ curl https://raw.githubusercontent.com/mencargo/mencargo.github.io/main/.bashr
 # curl https://raw.githubusercontent.com/mencargo/mencargo.github.io/main/.bashrc_server_root -o ~/.bashrc
 ```
 
-# AUR:
-Backup: `# pacman -Qqe | grep -v "$(pacman -Qqm)" > pacman.lst`
+# Packages
+List your goodies: `pacman -Qqe` & `pacman -Qqm`
 
-Restore: `# cat pacman.lst | xargs pacman -S --needed --noconfirm`
+Restore: `# cat pacman.txt | xargs pacman -S --needed --noconfirm`
