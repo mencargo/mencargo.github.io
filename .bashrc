@@ -3,7 +3,7 @@
 
 export VISUAL=nano
 export EDITOR=nano
-export PATH=$PATH:$HOME/bin:$HOME/go/bin
+export PATH=$PATH:$HOME/bin:$HOME/go/bin:$HOME/.local/share/gem/ruby/3.0.0/bin
 export HISTCONTROL=erasedups
 
 # Override defaults
