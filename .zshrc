@@ -15,9 +15,6 @@ export SAVEHIST=10000                   # Maximum events in history file
 autoload -U colors
 colors
 
-# Show completion on first TAB
-setopt menucomplete
-
 # Load completions for Ruby, Git, etc.
 autoload -U compinit
 compinit
@@ -31,3 +28,5 @@ alias gp="git push"
 alias gs="git status"
 alias ga="git pull; git add --all"
 alias gc="git pull; git commit -a -m"
+alias cc="gcc -Wall -Werror -Wextra *.c && ./a.out"
+alias norm="norminette -R CheckForbiddenSourceHeader ."
