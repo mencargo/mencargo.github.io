@@ -36,16 +36,14 @@ main.c
 ### check stuff:
 `git status` pay attention to the messages
  
-`git log` check that your HEAD is in the same commit as origin/master
+`git log` check that your __HEAD__ is in the same commit as __origin/master__
 
 `git ls-files` list of commited files
  
 `git diff-tree --no-commit-id --name-only -r <commit-hash>` list of files staged at a specific commit
  
  
-
- 
-## ZSH (~/.zshrc)
+# ZSH (~/.zshrc)
 ```
 export VISUAL=vim
 export EDITOR=vim
@@ -77,7 +75,7 @@ alias cc="gcc -Wall -Werror -Wextra *.c && ./a.out"
 alias norm="norminette -R CheckForbiddenSourceHeader ."
 ```
 
-## VIM (~/.vimrc or ~/.myvimrc in exam)
+## VIM (~/.vimrc)
 ```
 set history=500
 set autoread
@@ -90,3 +88,5 @@ set list
 set listchars=tab:\ \ ┊
 syntax	enable
 ```
+
+Also available at `~/.myvimrc` in exam
