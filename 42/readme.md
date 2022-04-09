@@ -1,5 +1,5 @@
 # SSH (~/.ssh)
-Generate keys with: `ssh-keygen -t <algorithm> -b <size>` both arguments are optional, default is __\<rsa\>__
+Generate keys with `ssh-keygen` with optional `-t <algorithm> -b <size>`, default is __\<rsa\>__
 
 Public key should be at `~/.ssh/id_rsa.pub`
 
@@ -14,6 +14,8 @@ Public key should be at `~/.ssh/id_rsa.pub`
 If the repository has already been created remotely, you can just clone it, and it will already have all basic config for a push:
 
 `git clone <url> <new_folder>`
+
+`git commit -a -m "message"` will add and commit ANY modified files that have already been added to the repository
 
 ### .gitignore
 Useful stuff to ignore in most excercises, use with caution!
@@ -75,7 +77,7 @@ alias cc="gcc -Wall -Werror -Wextra *.c && ./a.out"
 alias norm="norminette -R CheckForbiddenSourceHeader ."
 ```
 
-## VIM (~/.vimrc)
+# VIM (~/.vimrc)
 ```
 set history=500
 set autoread
