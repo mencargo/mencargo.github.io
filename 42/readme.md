@@ -1,9 +1,9 @@
-## SSH (~/.ssh)
-Generate keys with: `ssh-keygen -t <algorithm> -b <size>` both arguments are optional, default is <rsa>
+# SSH (~/.ssh)
+Generate keys with: `ssh-keygen -t <algorithm> -b <size>` both arguments are optional, default is __\<rsa\>__
 
 Public key should be at `~/.ssh/id_rsa.pub`
 
-## GIT
+# GIT
 
 `git init` initializes a local repository (creates a .git folder with initial config)
 
@@ -27,9 +27,9 @@ main.c
 ### force stuff:
 `git add -f main.c` an excercise that asks for a whole program
 
-`git rm -f <wrong_file>` could be <folder> with -rf
+`git rm -f <wrong_file>` could be __\<folder\>__ with __-rf__
 
-`git checkout master -f <file>` could be the entire repo without <file>
+`git checkout master -f <file>` could be the entire repo without __\<file\>__
  
  Completely messed up a local repo and want to start over? Could try `rm -rf .git` in the root repository folder
 
