@@ -9,7 +9,7 @@ Public key should be at `~/.ssh/id_rsa.pub`
 
 `git remote add origin <url>` set's a remote repository url
 
-`git push -u origin master` (prior git add and commit something) will push your staged files to the remote repo
+`git push --set-upstream origin master` (prior git add and commit something) will push your staged files to the remote repo
 
 If the repository has already been created remotely, you can just clone it, and it will already have all basic config for a push:
 
