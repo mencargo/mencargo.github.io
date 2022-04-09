@@ -7,7 +7,7 @@ Public key should be at `~/.ssh/id_rsa.pub`
 
 `git init` initializes a local repository (creates a .git folder with initial config)
 
-`git remote set-url origin <url>` set's a remote repository url, or changes an existing one
+`git remote add origin <url>` set's a remote repository url
 
 `git push -u origin master` (prior git add and commit something) will push your staged files to the remote repo
 
@@ -32,6 +32,8 @@ main.c
 `git rm -f <wrong_file>` could be __\<folder\>__ with __-rf__
 
 `git checkout master -f <file>` could be the entire repo without __\<file\>__
+ 
+ `git remote set-url origin <url>` changes an existing remote repository url
  
  Completely messed up a local repo and want to start over? Could try `rm -rf .git` in the root repository folder
 
