@@ -4,17 +4,20 @@ ssh-keygen
 ```
 
 
-## GIT (/repo/.git)
+## GIT
 
-```
-git init
-git remote set-url origin <url>
-git push -u origin master
-```
+`git init` initializes a local repository (creates a .git folder with initial config)
 
-`git clone <url> <folder>`
+`git remote set-url origin <url>` set's a remote repository url, or changes an existing one
+
+`git push -u origin master` (prior git add and commit something) will push your staged files to the remote repo
+
+If the repository has already been created remotely, you can just clone it, and it will already have all basic config for a push:
+
+`git clone <url> <new_folder>`
 
 ### .gitignore
+Useful stuff to ignore in most excercises, use with caution!
 ```
 .*
 *.out
@@ -25,11 +28,13 @@ main.c
 ### force stuff:
 `git add -f main.c` an excercise that asks for a whole program
 
-`git rm -f wrong_file` could be folder with -rf
+`git rm -f <wrong_file>` could be <folder> with -rf
 
 `git checkout master -f <file>` could be the entire repo without <file>
+ 
+ Completely messed up a local repo and want to start over? Could try `rm -rf <.git>` in the root repository folder
 
-### check stuff
+### check stuff:
 `git log` check that your HEAD is in the same commit than origin/master
 
  
