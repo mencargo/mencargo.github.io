@@ -1,8 +1,7 @@
 ## SSH (~/.ssh)
-```
-ssh-keygen
-```
+Generate keys with: `ssh-keygen -t <algorithm> -b <size>` both arguments are optional, default is <rsa>
 
+Public key should be at `~/.ssh/id_rsa.pub`
 
 ## GIT
 
@@ -37,9 +36,13 @@ main.c
 ### check stuff:
 `git status` pay attention to the messages
  
-`git log` check that your HEAD is in the same commit than origin/master
+`git log` check that your HEAD is in the same commit as origin/master
 
 `git ls-files` list of commited files
+ 
+`git diff-tree --no-commit-id --name-only -r <commit-hash>` list of files staged at a specific commit
+ 
+ 
 
  
 ## ZSH (~/.zshrc)
