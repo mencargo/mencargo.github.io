@@ -32,10 +32,14 @@ main.c
 
 `git checkout master -f <file>` could be the entire repo without <file>
  
- Completely messed up a local repo and want to start over? Could try `rm -rf <.git>` in the root repository folder
+ Completely messed up a local repo and want to start over? Could try `rm -rf .git` in the root repository folder
 
 ### check stuff:
+`git status` pay attention to the messages
+ 
 `git log` check that your HEAD is in the same commit than origin/master
+
+`git ls-files` list of commited files
 
  
 ## ZSH (~/.zshrc)
