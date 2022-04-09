@@ -3,7 +3,7 @@ Generate keys with `ssh-keygen` with optional `-t <algorithm> -b <size>`, defaul
 
 Public key should be at `~/.ssh/id_rsa.pub`
 
-# GIT
+# GIT (repo/.git)
 
 `git init` initializes a local repository (creates a .git folder with initial config)
 
